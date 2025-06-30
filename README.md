@@ -1,21 +1,34 @@
-# ElevateLabs_task5
-🔗 The task demonstrates all major JOIN types (INNER, LEFT, RIGHT, OUTER) using an extended Library Management System.
+📘 ElevateLabs_Task5
+🔗 Task 5: SQL Joins – Ecommerce
 
-It demonstrates how to combine related data from multiple tables using SQL JOINs. The LibraryDB2 schema was extended with a new Publishers table linked to the existing Books table.
+This task demonstrates all major SQL JOIN types (INNER, LEFT, RIGHT, FULL OUTER) using a simplified E-commerce database system.
 
-🎯 Objective: Learn to merge data from related tables
+It shows how to combine related data from multiple tables using SQL JOINs. The EcommerceDB schema was extended by adding a new Vendors table, which is linked to the existing Orders table through a foreign key.
+
+🎯 Objective
+Learn how to merge data from related tables
+
 Use INNER, LEFT, RIGHT, and FULL OUTER JOINs
-Understand relationships through foreign keys
+
+Understand data relationships using foreign keys
+
 🛠 Tools Used
 MySQL Workbench
+
 🧱 Schema Extension
-A new table Publishers was added and linked to Books using a foreign key (publisher_id). Sample publishers were inserted and matched with existing books.
+A new table Vendors was created and linked to the Orders table using a foreign key (vendor_id).
+Sample vendor records were inserted and matched with existing orders.
 
 🔍 JOINs Demonstrated
-INNER JOIN: Show books with their publishers
-LEFT JOIN: Show all books, even without publishers
-RIGHT JOIN: Show all publishers, even those without books (MySQL only)
+INNER JOIN: Show orders along with vendor information
+
+LEFT JOIN: Show all orders, including those without a vendor
+
+RIGHT JOIN: Show all vendors, including those without any orders (MySQL only)
+
 FULL OUTER JOIN: Simulated using UNION (MySQL only)
-✅ Outcome: Mastery of mergibg data
-Gained hands-on experience using all major SQL JOIN types
-Understood how to connect and retrieve data across normalized tables
+
+✅ Outcome: Mastery of Merging Data
+Gained hands-on experience with all key SQL JOIN types
+
+Learned how to connect and retrieve data across normalized e-commerce tables
