@@ -1,4 +1,4 @@
-# ElevatoryLabs_task5
+# ElevateLabs_task5
 🔗 The task demonstrates all major JOIN types (INNER, LEFT, RIGHT, OUTER) using an extended Library Management System.
 
 It demonstrates how to combine related data from multiple tables using SQL JOINs. The LibraryDB2 schema was extended with a new Publishers table linked to the existing Books table.
